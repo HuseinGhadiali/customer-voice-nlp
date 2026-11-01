@@ -1,0 +1,4 @@
+model,accuracy,macro_f1,train_seconds
+TF-IDF + LogisticRegression,0.8905844155844156,0.8907989938802368,19.6
+MiniLM sentence embeddings + LogisticRegression,0.9324675324675324,0.932213317949005,110.8
+"DistilBERT fine-tuned (2 epochs, CPU)",0.8902597402597403,0.884866421823146,981.2
